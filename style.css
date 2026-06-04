@@ -45,7 +45,8 @@
             position: sticky;
             top: 0;
             z-index: 100;
-            background: rgba(3, 10, 5, 0.85);
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(12px);
             backdrop-filter: blur(12px);
             border-bottom: 1px solid rgba(0, 255, 136, 0.08);
         }
@@ -699,3 +700,30 @@
             }
         }
     
+
+.light-mode {
+    background: #f0f0f0;
+    color: #1a1a1a;
+    --vert: #00aa66;
+    --vert-dim: #008f55;
+    --texte: #1a1a1a;
+    --texte-dim: #444444;
+    --noir-card: #ffffff;
+    --noir-card2: #e8e8e8;
+    --noir: #f0f0f0;
+}
+
+/* Bouton thème — style */
+#theme-btn {
+    background: transparent;
+    border: 1px solid rgba(0,255,136,0.3);
+    border-radius: 8px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+#theme-btn:hover {
+    border-color: var(--vert);
+    box-shadow: 0 0 10px var(--vert);
+}
