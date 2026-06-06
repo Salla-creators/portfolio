@@ -46,7 +46,7 @@
         }
     });
 
-    // UNE SEULE fois dans tout ton fichier
+    // theme de mon portfolio
 const themeBtn = document.querySelector('#theme-btn');
 
 themeBtn.addEventListener('click', () => {
